@@ -1,0 +1,35 @@
+<!-- customMultiselectPicklist.html -->
+<template>
+    <div class="custom-multiselect-picklist">
+        <lightning-card title="Custom Multiselect Picklist" icon-name="custom:custom8" variant="brand">
+            <h3 slot="title">Custom Multiselect Picklist</h3>
+    <div class="custom-multiselect-picklist">
+        <div class="available-options" ondrop={handleDropAvailable} ondragover={handleDragOver}>
+            <h3>Available Options</h3>
+            <ul>
+                <template for:each={availableOptions} for:item="option">
+                    <li key={option.value} draggable="true" data-value={option.value} ondragstart={handleDragStart}>
+                        <span>{option.label}</span>
+                    </li>
+                </template>
+            </ul>
+        </div>
+        <div class="selected-options" ondrop={handleDropSelected} ondragover={handleDragOver}>
+            <h3>Selected Options</h3>
+            <ul>
+                <template for:each={selectedOptions} for:item="option">
+                    <li key={option.value} draggable="true" data-value={option.value} ondragstart={handleDragStart}>
+                        <span>{option.label}</span>
+                    </li>
+                </template>
+            </ul>
+        </div>
+    </div>
+        <footer class="slds-footer slds-p-around_medium slds-theme_default">
+            <div class="sfdclesson-branding">
+                <p>Developed by SFDCLessons</p>
+            </div>
+        </footer>
+    </lightning-card>
+</div>
+</template>
