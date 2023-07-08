@@ -30,10 +30,7 @@ To get started with the Custom Multi-Select Picklist component, follow these ste
 5. Contribute and Collaborate: If you have ideas for improvements or would like to contribute to the component, we welcome your contributions. Fork this repository, make your changes, and submit a pull request. We appreciate your collaboration and support in making this component even better.
 
 ## Resources
-- Documentation: [Link to Documentation]
-- Demo Video: [Link to Demo Video]
-- Issue Tracker: [Link to Issue Tracker]
-- Support: [Link to Support Resources]
+- Blog post: [Link to Documentation]
 
 ## License
 The Custom Multi-Select Picklist component is released under the [MIT License](LICENSE). Feel free to use, modify, and distribute the component as per the terms of the license.
