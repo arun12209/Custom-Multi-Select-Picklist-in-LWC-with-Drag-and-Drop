@@ -30,7 +30,7 @@ To get started with the Custom Multi-Select Picklist component, follow these ste
 5. Contribute and Collaborate: If you have ideas for improvements or would like to contribute to the component, we welcome your contributions. Fork this repository, make your changes, and submit a pull request. We appreciate your collaboration and support in making this component even better.
 
 ## Resources
-- Blog post: [Link to Documentation]
+- Blog post: [https://sfdclesson.com/2023/07/11/custom-multi-select-picklist-in-lwc-with-drag-and-drop-feature/]
 
 ## License
 The Custom Multi-Select Picklist component is released under the [MIT License](LICENSE). Feel free to use, modify, and distribute the component as per the terms of the license.
