@@ -1,0 +1,65 @@
+.custom-multiselect-picklist {
+    display: flex;
+    gap: 20px;
+    margin: 25px;
+}
+.sfdclesson-branding {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #737373;
+}
+.available-options,
+.selected-options {
+    background-color: #f3f3f3;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.available-options h3,
+.selected-options h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.available-options ul,
+.selected-options ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.available-options li,
+.selected-options li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.available-options li:hover,
+.selected-options li:hover {
+    background-color: #e0e0e0;
+}
+
+.available-options li span,
+.selected-options li span {
+    display: inline-block;
+}
+
+.custom-multiselect-picklist .selected-options {
+    background-color: #e5f3ed;
+}
+
+.custom-multiselect-picklist .selected-options li {
+    background-color: #c5e1a5;
+}
+
+.custom-multiselect-picklist .selected-options li:hover {
+    background-color: #aed581;
+}
